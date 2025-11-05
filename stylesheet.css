@@ -1,17 +1,16 @@
-/* Colores "Cute" */
 :root {
-    --color-rosa-claro: #FADDE1; /* Rosa pastel muy claro */
+    --color-rosa-claro: #FADDE1; 
     --otro-color-rosa : #ffe8f0;
-    --color-rosa-medio: #F8C3CD; /* Rosa un poco más intenso */
-    --color-cafe-claro: #D4B2A0; /* Café claro, beige */
-    --color-cafe-oscuro: #8B4513; /* Café oscuro para texto/detalles */
-    --color-cafe-muy-oscuro: #5A2D0A; /* Más oscuro para texto principal */
+    --color-rosa-medio: #F8C3CD; 
+    --color-cafe-claro: #D4B2A0;
+    --color-cafe-oscuro: #8B4513; 
+    --color-cafe-muy-oscuro: #5A2D0A;
     --otro-color-cafe: #7e4753;
 }
 
 body {
-    background-color: var(--color-rosa-claro); /* Fondo general rosa pastel */
-    color: var(--color-cafe-muy-oscuro); /* Texto principal café oscuro */
+    background-color: var(--color-rosa-claro);
+    color: var(--color-cafe-muy-oscuro); 
 }
 
 .mi-navbar {
@@ -19,24 +18,20 @@ body {
     border-bottom: 2px solid var(--color-cafe-claro);
 }
 
-.mi-brand {
-    color: var(--color-cafe-oscuro) !important; /* Color del texto del logo */
-    font-weight: bold;
-}
 
 .mi-nav-link {
-    color: var(--color-cafe-oscuro) !important; /* Color de los enlaces */
+    color: var(--color-cafe-oscuro) !important; 
     transition: all 0.3s ease;
 }
 
 .mi-nav-link:hover {
-    color: var(--color-cafe-muy-oscuro) !important; /* Color al pasar el mouse */
-    background-color: var(--color-cafe-claro); /* Fondo al pasar el mouse */
+    color: var(--color-cafe-muy-oscuro) !important; 
+    background-color: var(--color-cafe-claro); 
     border-radius: 5px;
 }
 
 .btn-primary {
-    background-color: var(--color-cafe-oscuro); /* Color principal de los botones */
+    background-color: var(--color-cafe-oscuro); 
     border-color: var(--color-cafe-oscuro);
     font-family: "Poiret One", sans-serif;
     font-weight: 400;
@@ -44,13 +39,14 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: var(--color-cafe-muy-oscuro); /* Hover de los botones */
+    background-color: var(--color-cafe-muy-oscuro); 
     border-color: var(--color-cafe-muy-oscuro);
 }
 
 .form-label {
     color: var(--color-cafe-muy-oscuro);
     font-weight: bold;
+    font-family: "Poiret One", sans-serif;
 }
 
 .form-control {
@@ -61,11 +57,17 @@ body {
     box-shadow: 0 0 0 0.25rem rgba(var(--color-cafe-oscuro), 0.25); 
     border-color: var(--color-cafe-oscuro);
 }
-
+.date{
+    border-color: var(--otro-color-cafe);
+    background-color: var(--color-rosa-medio);
+    color: var(--otro-color-cafe);
+    font-family: "Poiret One", sans-serif;
+}
 .card {
     border-color: var(--color-cafe-claro);
     background-color: var(--color-rosa-medio);
     color: var(--color-cafe-muy-oscuro);
+    font-family: "Delius", cursive;
 }
 
 .bienvenida{
@@ -76,7 +78,7 @@ body {
 }
 
 h1{
-      font-family: "Delius", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
 }

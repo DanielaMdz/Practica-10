@@ -31,9 +31,9 @@
         <a class="nav-link mi-nav-link" href="consulta.php">Consultar Libros</a>
       </li>
     </ul>
-    <form class="d-flex">
-        <input class="form-control me-2" type="text" placeholder="Search">
-        <button class="btn btn-primary" type="button">Search</button>
+    <form class="d-flex" action="consulta.php" method="GET">
+      <input class="form-control me-2" type="text" placeholder="Buscar por título o autor" name="search_query">
+      <button class="btn btn-primary" type="submit">Buscar</button>
     </form>
   </div>
 </nav>
